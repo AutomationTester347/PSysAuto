@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSysAuto.Tests", "PSysAuto.Tests\PSysAuto.Tests.csproj", "{ED9E0B66-1D60-44D6-9291-063B74FF2C53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED9E0B66-1D60-44D6-9291-063B74FF2C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED9E0B66-1D60-44D6-9291-063B74FF2C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED9E0B66-1D60-44D6-9291-063B74FF2C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED9E0B66-1D60-44D6-9291-063B74FF2C53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBE54709-FB33-4731-B7C0-FDEF13F75334}
+	EndGlobalSection
+EndGlobal
