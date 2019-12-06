@@ -4,9 +4,8 @@ using TechTalk.SpecFlow;
 
 namespace PSysAuto.Tests.Pages
 {
-   public class HomePageObject
+   public class HomePageObject : _BasePage
     {
-        IWebDriver driver = ScenarioContext.Current.Get<IWebDriver>("currentDriver");
         IWebElement LoginLink => driver.FindElement(By.CssSelector("#anonLogin"));
         IWebElement NavigationMenu => driver.FindElement(By.CssSelector(".lzd-site-nav-menu-dropdown"));
         IWebElement AddToCartButton => driver.FindElement(By.CssSelector(".ant-btn-lg"));

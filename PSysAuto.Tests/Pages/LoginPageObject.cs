@@ -3,9 +3,8 @@ using TechTalk.SpecFlow;
 
 namespace PSysAuto.Tests.Pages
 {
-    public class LoginPageObject
+    public class LoginPageObject : _BasePage
     {
-        IWebDriver driver = ScenarioContext.Current.Get<IWebDriver>("currentDriver");
         IWebElement EmailField => driver.FindElement(By.CssSelector(".mod-input-loginName input"));
         IWebElement PasswordField => driver.FindElement(By.CssSelector(".mod-input-password input"));
         IWebElement LoginButton => driver.FindElement(By.XPath("//button[text()='LOGIN']"));
